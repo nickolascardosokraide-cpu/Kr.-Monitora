@@ -1,0 +1,139 @@
+index.html<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KR Monitora - Proteção Veicular</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0d0d0d;
+    color: #fff;
+}
+
+header {
+    background: black;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid gold;
+}
+
+header h1 {
+    color: gold;
+    margin: 0;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #ccc;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 25px;
+    background: gold;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: #1a1a1a;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    border: 1px solid gold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    border-top: 1px solid gold;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>KR. MONITORA</h1>
+    <p>Proteção Veicular Premium</p>
+</header>
+
+<section class="hero">
+    <h2>Proteja seu veículo com quem entende</h2>
+    <p>Planos a partir de <strong>R$ 55,90</strong></p>
+
+    <a class="btn" href="https://wa.me/5511989600571" target="_blank">
+        Falar no WhatsApp
+    </a>
+</section>
+
+<section class="section">
+    <h2>O que você recebe</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Rastreamento 24h</h3>
+            <p>Veja seu veículo em tempo real pelo celular</p>
+        </div>
+
+        <div class="card">
+            <h3>Guincho 24h</h3>
+            <p>Socorro em qualquer lugar</p>
+        </div>
+
+        <div class="card">
+            <h3>Assistência Completa</h3>
+            <p>Pane seca, bateria, troca de pneu</p>
+        </div>
+
+        <div class="card">
+            <h3>Segurança Total</h3>
+            <p>Mais tranquilidade para você e sua família</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Pronto para proteger seu carro?</h2>
+    <p>Clique abaixo e fale direto com um especialista</p>
+
+    <a class="btn" href="https://wa.me/5511989600571" target="_blank">
+        Contratar Agora
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 KR Monitora - Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
